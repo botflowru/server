@@ -1,0 +1,5 @@
+user\UserController.class
+dao\UserDao.class
+user\UserApplication.class
+user\User.class
+dao\CrudDao.class
