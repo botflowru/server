@@ -8,7 +8,7 @@ public class Bot {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @JoinColumn(name = "bot_name")
+    @Column(name = "bot_name")
     private String name;
     private String email;
 
