@@ -1,5 +1,7 @@
 user\UserController.class
-dao\UserDao.class
 user\UserApplication.class
+user\Bot.class
+dao\UserDao.class
+dao\BotDao.class
 user\User.class
 dao\CrudDao.class

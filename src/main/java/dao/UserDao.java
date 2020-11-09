@@ -4,7 +4,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import user.User;
-
 import javax.persistence.NoResultException;
 import java.util.Optional;
 
@@ -12,7 +11,7 @@ public class UserDao implements CrudDao<User> {
     private final SessionFactory sessionFactory;
     public UserDao(){
         Configuration configuration = new Configuration();
-        configuration.setProperty("hibernate.connection.url", "jdbc:postgresql://194.67.110.75:5432/postgres");
+        configuration.setProperty("hibernate.connection.url", "jdbc:postgresql://89.108.103.185:5432/postgres");
         configuration.setProperty("hibernate.connection.username", "postgres");
         configuration.setProperty("hibernate.connection.password", "botflow");
         configuration.setProperty("hibernate.connection.driver_class", "org.postgresql.Driver");
